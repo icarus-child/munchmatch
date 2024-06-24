@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+  .burger {
+    @apply bg-dark-text-subtle h-[3px];
+  }
+}
